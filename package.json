@@ -1,0 +1,24 @@
+{
+  "name": "linechartcompd3",
+  "version": "1.0.0",
+  "description": "A Vue.js (>= 2.5) component that uses the D3 charting library to provide a time or numeric based line chart. ",
+  "main": "LineChartCompD3.vue",
+  "repository": "git+https://github.com/deandevl/LineChartCompD3.git",
+  "author": "'Rick <deanr3@bardstown.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "vue": "^2.5.9",
+    "buttoncomp": "git+https://github.com/deandevl/ButtonComp.git#develop",
+    "inputcomp": "git+https://github.com/deandevl/InputComp.git#develop",
+    "selectcomp": "git+https://github.com/deandevl/SelectComp.git",
+    "d3-array": "^2.0.3",
+    "d3-format": "^1.3.2",
+    "d3-selection": "^1.4.0",
+    "d3-shape": "^1.2.2",
+    "d3-time-format": "^2.1.3",
+    "d3axismodule": "git+https://github.com/deandevl/d3AxisModule.git",
+    "d3scalemodule": "git+https://github.com/deandevl/d3ScaleModule.git",
+    "d3utilmodule": "git+https://github.com/deandevl/d3UtilModule.git"
+  }
+}
