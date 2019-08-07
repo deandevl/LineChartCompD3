@@ -3,17 +3,28 @@
 **line-chart-comp-d3** is a Vue.js (>= 2.5) web component that draws svg scatter/line charts.  **line-chart-comp-d3** depends on the [vue.js](https://vuejs.org/ "Vue.js"), various modules from  [d3.js]( https://d3js.org/ ), along with [button-comp](https://github.com/deandevl/ButtonComp),  [input-comp](https://github.com/deandevl/InputComp), and [select-comp](https://github.com/deandevl/SelectComp.git#develop) from the [deandevl](https://github.com/deandevl) repositories.  The dependencies can be installed via [npm install](https://docs.npmjs.com/cli/install.html "npm install") with the included `package.json` file.   **line-chart-comp-d3** offers several features including:
 
 - clickable x or y axis for redefining the axis scaling
+
 - legends and axis titles are draggable to new locations
+
 - clickable lines where the selected line is highlighted and the others dimmed
+
 - can plot numeric, time or categorical based data
+
 - tooltip showing a points x/y values on hover
+
 - control over decimal places for both axis and tooltip values
+
 - points can be line connected/unconnected
+
 - CSS variables are provided for easily controlling chart colors, backgrounds and font sizes
+
 - data can be sub-divided into groups with specific colors and icons
+
 - curve fit functions can defined and plotted along with the points
 
-Three [webpack](https://webpack.js.org/concepts/) npm scripts are included for building  development, production, or hot recompile/execute of the demo.   `build-dev` and `build-prod` scripts produce  a `dist` folder containing the `index.html`.  The size of the `main.js` bundle using `build-prod` is 150 KiB along with calling a CDN for incorporating the Vue framework.
+  
+
+   A demo folder is provided that used [Parcel](https://parceljs.org/) together with its associated `package.json` file to bundle together  **line-chart-comp-d3** along with its dependencies for a simple application.  Further details are provided below for running the demo.
 
 ## Props
 
@@ -130,6 +141,8 @@ If the x axis is `time` based (as in `demo_2`, `demo_3`) then the minimum/maximu
 ## Demonstration
 
 Three demonstrations of **line-chart-comp-d3** are provided in the folders named `demo_1`, `demo_2`, and `demo_3`.  They can be viewed by hosting their respective `index.html`files.  demo_1 is a chart of the Fisher Iris data grouped into the three major classes.  A pair of fitted regression lines are also plotted.
+
+As a suggestion, install [http-server](https://www.npmjs.com/package/http-server "http-server") locally/globally via [npm](https://www.npmjs.com/ "npm") then enter the command `http-server`in a **line-chart-comp-d3** `dist` directory.  From a browser enter the url: `localhost:8080/` to view the demo.
 
 The demo folder contains a `package.json` file that can be used to setup dependencies for this demo and as a template for other applications using **line-chart-comp-d3**.
 

@@ -1,0 +1,39 @@
+{
+  "name": "linechartcompd3demo2",
+  "version": "1.0.0",
+  "description": "Demo_2 of LineChartCompD3.vue ",
+  "main": "app.js",
+  "browserslist": [
+    "since 2017-06"
+  ],
+  "scripts": {
+    "build": "parcel build index.html"
+  },
+  "repository": "git+https://github.com/deandevl/LineChartCompD3.git",
+  "author": "'Rick <deanr3@bardstown.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "vue": "^2.5.9",
+    "linechartcompd3": "git+https://github.com/deandevl/LineChartCompD3.git",
+    "buttoncomp": "git+https://github.com/deandevl/ButtonComp.git#develop",
+    "inputcomp": "git+https://github.com/deandevl/InputComp.git#develop",
+    "selectcomp": "git+https://github.com/deandevl/SelectComp.git",
+    "d3-array": "^2.0.3",
+    "d3-format": "^1.3.2",
+    "d3-selection": "^1.4.0",
+    "d3-shape": "^1.2.2",
+    "d3-time-format": "^2.1.3",
+    "d3axismodule": "git+https://github.com/deandevl/d3AxisModule.git",
+    "d3scalemodule": "git+https://github.com/deandevl/d3ScaleModule.git",
+    "d3utilmodule": "git+https://github.com/deandevl/d3UtilModule.git",
+    "d3fetchmodule": "git+https://github.com/deandevl/d3FetchModule.git",
+    "regression": "^2.0.1"
+  },
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^3.0.0",
+    "less": "^3.9.0",
+    "parcel-bundler": "^1.12.3",
+    "vue-template-compiler": "^2.6.10"
+  }
+}
